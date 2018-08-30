@@ -16,5 +16,4 @@ nnoremap <Leader>w :w<CR>
 
 nnoremap <leader>e :VimFilerExplore -split -winwidth=30 -find -no-quit<Cr>
 
-nmap <silent><Leader>i :<C-u>IndentLinesToggle<CR>
 
