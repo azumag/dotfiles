@@ -126,3 +126,4 @@ alias dc='docker run --rm -it -v $(pwd):/usr/src/app -w /usr/src/app'
 alias ruby='dc ruby ruby'
 alias compose='docker-compose'
 export PATH="$HOME/tools/AWS-ElasticBeanstalk-CLI-2.2/eb/linux/python2.7:$PATH"
+export PATH="$HOME/.linuxbrew/bin:$PATH"
