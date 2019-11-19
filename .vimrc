@@ -17,6 +17,12 @@ Plug 'vim-scripts/AnsiEsc.vim'
 
 Plug 'bronson/vim-trailing-whitespace'
 
+Plug 'ctrlpvim/ctrlp.vim'
+
+Plug 'prettier/vim-prettier'
+
+Plug 'dense-analysis/ale'
+
 call plug#end()
 """"""""""""""""""""""""""""""
 
@@ -105,7 +111,7 @@ let g:indent_guides_enable_on_vim_startup = 1
 
 " let g:unite_enable_start_insert=1
 " バッファ一覧
-noremap <C-P> :Unite buffer<CR>
+noremap <C-[> :Unite buffer<CR>
 " ファイル一覧
 noremap <C-N> :Unite -buffer-name=file file<CR>
 " 最近使ったファイルの一覧
